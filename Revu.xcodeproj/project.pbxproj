@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D3CD26C24895F750081AB99 /* Restaurant+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CD26824895F750081AB99 /* Restaurant+CoreDataClass.swift */; };
+		5D3CD26D24895F750081AB99 /* Restaurant+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CD26924895F750081AB99 /* Restaurant+CoreDataProperties.swift */; };
+		5D3CD274248960EE0081AB99 /* Review+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CD272248960EE0081AB99 /* Review+CoreDataClass.swift */; };
+		5D3CD275248960EE0081AB99 /* Review+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CD273248960EE0081AB99 /* Review+CoreDataProperties.swift */; };
+		5D3CD277248969750081AB99 /* AddRestaurantVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CD276248969750081AB99 /* AddRestaurantVC.swift */; };
+		5D3CD27B248988490081AB99 /* ReviewsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CD27A248988490081AB99 /* ReviewsTVC.swift */; };
 		5D4F8BD324893C97000ECFA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4F8BD224893C97000ECFA9 /* AppDelegate.swift */; };
 		5D4F8BD524893C97000ECFA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4F8BD424893C97000ECFA9 /* SceneDelegate.swift */; };
 		5D4F8BD724893C97000ECFA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4F8BD624893C97000ECFA9 /* ViewController.swift */; };
@@ -15,6 +21,11 @@
 		5D4F8BDF24893C9D000ECFA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D4F8BDE24893C9D000ECFA9 /* Assets.xcassets */; };
 		5D4F8BE224893C9D000ECFA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D4F8BE024893C9D000ECFA9 /* LaunchScreen.storyboard */; };
 		5D4F8BED24893C9D000ECFA9 /* RevuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4F8BEC24893C9D000ECFA9 /* RevuTests.swift */; };
+		5D4F8BF924893F51000ECFA9 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4F8BF824893F51000ECFA9 /* UIKitExtensions.swift */; };
+		5D4F8BFB248941E3000ECFA9 /* FoodieMasterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4F8BFA248941E3000ECFA9 /* FoodieMasterVC.swift */; };
+		5D809731248997E20085492F /* AddReviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D809730248997E20085492F /* AddReviewVC.swift */; };
+		5D809733248998770085492F /* StarReviewControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D809732248998770085492F /* StarReviewControl.swift */; };
+		5D8097352489BE4B0085492F /* OtherExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8097342489BE4B0085492F /* OtherExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D3CD26824895F750081AB99 /* Restaurant+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Restaurant+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		5D3CD26924895F750081AB99 /* Restaurant+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Restaurant+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		5D3CD272248960EE0081AB99 /* Review+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Review+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		5D3CD273248960EE0081AB99 /* Review+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Review+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		5D3CD276248969750081AB99 /* AddRestaurantVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRestaurantVC.swift; sourceTree = "<group>"; };
+		5D3CD27A248988490081AB99 /* ReviewsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsTVC.swift; sourceTree = "<group>"; };
 		5D4F8BCF24893C97000ECFA9 /* Revu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Revu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D4F8BD224893C97000ECFA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D4F8BD424893C97000ECFA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +57,11 @@
 		5D4F8BE824893C9D000ECFA9 /* RevuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D4F8BEC24893C9D000ECFA9 /* RevuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevuTests.swift; sourceTree = "<group>"; };
 		5D4F8BEE24893C9D000ECFA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D4F8BF824893F51000ECFA9 /* UIKitExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
+		5D4F8BFA248941E3000ECFA9 /* FoodieMasterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodieMasterVC.swift; sourceTree = "<group>"; };
+		5D809730248997E20085492F /* AddReviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReviewVC.swift; sourceTree = "<group>"; };
+		5D809732248998770085492F /* StarReviewControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarReviewControl.swift; sourceTree = "<group>"; };
+		5D8097342489BE4B0085492F /* OtherExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +103,12 @@
 		5D4F8BD124893C97000ECFA9 /* Revu */ = {
 			isa = PBXGroup;
 			children = (
+				5D3CD272248960EE0081AB99 /* Review+CoreDataClass.swift */,
+				5D3CD273248960EE0081AB99 /* Review+CoreDataProperties.swift */,
+				5D3CD26824895F750081AB99 /* Restaurant+CoreDataClass.swift */,
+				5D3CD26924895F750081AB99 /* Restaurant+CoreDataProperties.swift */,
+				5D4F8BFC24894225000ECFA9 /* Controllers */,
+				5D4F8BF724893EB0000ECFA9 /* Helpers */,
 				5D4F8BD224893C97000ECFA9 /* AppDelegate.swift */,
 				5D4F8BD424893C97000ECFA9 /* SceneDelegate.swift */,
 				5D4F8BD624893C97000ECFA9 /* ViewController.swift */,
@@ -100,6 +128,27 @@
 				5D4F8BEE24893C9D000ECFA9 /* Info.plist */,
 			);
 			path = RevuTests;
+			sourceTree = "<group>";
+		};
+		5D4F8BF724893EB0000ECFA9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5D4F8BF824893F51000ECFA9 /* UIKitExtensions.swift */,
+				5D8097342489BE4B0085492F /* OtherExtensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5D4F8BFC24894225000ECFA9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5D4F8BFA248941E3000ECFA9 /* FoodieMasterVC.swift */,
+				5D3CD276248969750081AB99 /* AddRestaurantVC.swift */,
+				5D3CD27A248988490081AB99 /* ReviewsTVC.swift */,
+				5D809730248997E20085492F /* AddReviewVC.swift */,
+				5D809732248998770085492F /* StarReviewControl.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,10 +252,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D809731248997E20085492F /* AddReviewVC.swift in Sources */,
+				5D3CD277248969750081AB99 /* AddRestaurantVC.swift in Sources */,
 				5D4F8BD724893C97000ECFA9 /* ViewController.swift in Sources */,
 				5D4F8BD324893C97000ECFA9 /* AppDelegate.swift in Sources */,
 				5D4F8BD524893C97000ECFA9 /* SceneDelegate.swift in Sources */,
+				5D3CD275248960EE0081AB99 /* Review+CoreDataProperties.swift in Sources */,
+				5D8097352489BE4B0085492F /* OtherExtensions.swift in Sources */,
+				5D3CD26D24895F750081AB99 /* Restaurant+CoreDataProperties.swift in Sources */,
 				5D4F8BDD24893C97000ECFA9 /* Revu.xcdatamodeld in Sources */,
+				5D4F8BFB248941E3000ECFA9 /* FoodieMasterVC.swift in Sources */,
+				5D4F8BF924893F51000ECFA9 /* UIKitExtensions.swift in Sources */,
+				5D3CD27B248988490081AB99 /* ReviewsTVC.swift in Sources */,
+				5D3CD26C24895F750081AB99 /* Restaurant+CoreDataClass.swift in Sources */,
+				5D3CD274248960EE0081AB99 /* Review+CoreDataClass.swift in Sources */,
+				5D809733248998770085492F /* StarReviewControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
